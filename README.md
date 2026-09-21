@@ -50,7 +50,7 @@ A Microservices-based Employee Management System built using Java, Spring Boot, 
                      Service Discovery
                      & Centralized Config
 
-# Project Overview:
+Project Overview:
 This project demonstrates a microservices-based Employee Management System where different business responsibilities are separated into independent services.
 
 The system provides employee management APIs, authentication and authorization using JWT, service discovery using Eureka, centralized configuration using Config Server, asynchronous communication using Apache Kafka, and containerization using Docker.
