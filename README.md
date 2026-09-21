@@ -87,6 +87,7 @@ Role-based access control
 ADMIN and USER roles
 
 3. API Gateway
+
 Acts as the single entry point for client requests.
 
 It routes requests to the appropriate microservice using Spring Cloud Gateway and Eureka service discovery.
