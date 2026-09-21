@@ -1,4 +1,4 @@
-\# Employee Management System
+# Employee Management System
 
 
 
@@ -6,39 +6,24 @@ A Microservices-based Employee Management System built using Java, Spring Boot, 
 
 
 
-\## Architecture
-
-
+## Architecture
 
 ```text
-
-&#x20;                   API Gateway
-
-&#x20;                       |
-
-&#x20;            +----------+----------+
-
-&#x20;            |                     |
-
-&#x20;            v                     v
-
-&#x20;       Auth Service         Employee Service
-
-&#x20;            |                     |
-
-&#x20;         User DB              Employee DB
-
-&#x20;                                  |
-
-&#x20;                                  v
-
-&#x20;                               Apache Kafka
-
-&#x20;                                  |
-
-&#x20;                                  v
-
-&#x20;                          Notification Service
+                    API Gateway
+                         |
+              +----------+----------+
+              |                     |
+              v                     v
+        Auth Service         Employee Service
+              |                     |
+              v                     v
+           User DB              Employee DB
+                                    |
+                                    v
+                               Apache Kafka
+                                    |
+                                    v
+                          Notification Service
 
 
 
